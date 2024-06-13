@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:arial;
+}
+
+#main1-div{
+    width: 100%;
+    background-color: black;
+    height: 140px;
+    min-height: 50px;
+}
+
+body {
+    margin:0%;
+}
+
+.shoes{
+    border-radius: 30%;
+}
+
+#sidebar-div {
+    width: 10%; 
+    float:left;
+    height: 907px;
+    line-height: 70px;
+    min-height: 50vh; 
+    background-color: orange;
+}
+
+ul.no-bullet{
+    list-style-type: none;
+    padding: 30px;
+}
+
+li{
+    font-size: 30px;
+}
+.nav-div{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 30px;
+    width: 80%;
+    text-align: center;
+    padding: 80px 0px 0 40em;
+    
+    float: right;
+}
+
+.mcdo {
+    width: 200px; /* adjust to container size as needed */
+    height: 200px;
+    object-position: 30% 50%;
+    padding: 0px 0px 0px 0em;
+  }
+
+.nav-div .glowing-link {
+    color: orange; /* Initial color of the link */
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition */
+}
+.nav-div .glowing-link:hover {
+    color: #fff; /* Change color on hover */
+    text-shadow: 0 0 5px orange, 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange, 0 0 50px orange, 0 0 60px orange; /* Glowing effect */
+}
+
+#headerbanner-div{
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#introtext-div{
+    width: 90%;
+    float:right;
+    height: 600px;
+    line-height: 54px;
+    margin-bottom: 5px;
+}
+
+.player {
+    background-image: url('Poster.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; /* adjust as needed */
+    height: 600px; /* adjust as needed */
+  }
+
+#text{
+    background-color: yellow;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 50px;
+}
+
+#main2-div {
+    width: 90%; 
+    float : right;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.side {
+    flex: 1;  
+    position: relative; 
+}
+
+.box-div {
+    width: 100%; 
+    min-height: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.box-div:hover{
+    transform: translateY(-5px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-around; 
+}
+
+#footer-div{
+        width: 100%;
+        background-color: black;
+        line-height: 40px;
+        padding: 30px;
+}
+
+.footer-item {
+    line-height: 20px;
+    flex: 1;
+    color: orange;
+    min-height: 10px;
+    text-align: center;
+}
+
+.footer {
+    width: 200px;
+  }
+
+.mcdeliv, .mcdeliver{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px
+    
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
